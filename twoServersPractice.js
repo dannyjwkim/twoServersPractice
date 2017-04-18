@@ -24,13 +24,3 @@ server1.listen(PORT1,function(){
 server2.listen(PORT2,function(){
 	console.log("server listening on http://localhost:"+PORT2);
 });
-
-// One that listens on port 7000 and one that listens on port 7500. 
-// The one listening on port 7000 will always tell the user something good about themselves. 
-// The one listening on 7500 will always tell the user something bad about themselves. 
-// Make sure you create a Github repo and *commit this code!* 
-
-// >:moneybag:*BONUS!!*
-// >Look for other ways to expand what your server can do. Possibilities:  Generate the good/bad
-// phrase randomly from a list of predefined phrases OR use the twitter package inside the response
-// to also return a random tweet
